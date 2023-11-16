@@ -1,0 +1,14 @@
+2023-11-16T16:00:10.875Z   +352ms [debug] Config loaded {"version":"2.17.6","cdkVersion":"2.84.0","constructsVersion":"10.1.156","config":{"name":"t3-sst","region":"us-east-1","stage":"richajoshi","ssmPrefix":"/sst/t3-sst/richajoshi/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":215,"imports":[{"path":"sst","kind":"import-statement","external":true},{"path":"sst/constructs","kind":"import-statement","external":true}]}},"outputs":{".sst.config.1700150410816.mjs":{"imports":[],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":121}},"bytes":303}}},"paths":{"config":"/Users/richajoshi/Documents/backup/website/sst-example-github/t3-sst-example/sst.config.ts","root":"/Users/richajoshi/Documents/backup/website/sst-example-github/t3-sst-example","out":"/Users/richajoshi/Documents/backup/website/sst-example-github/t3-sst-example/.sst","artifacts":"/Users/richajoshi/Documents/backup/website/sst-example-github/t3-sst-example/.sst/artifacts"}}
+2023-11-16T16:00:11.989Z  +1114ms [debug] Using AWS profile 
+2023-11-16T16:00:12.010Z    +21ms [debug] Created AWS client IoTClient
+2023-11-16T16:00:12.010Z     +0ms [debug] Getting IoT endpoint
+2023-11-16T16:00:12.758Z   +748ms [debug] Using IoT endpoint: a2lee4bmfhqnb4-ats.iot.us-east-1.amazonaws.com
+2023-11-16T16:00:12.758Z     +0ms [debug] Initializing bootstrap context
+2023-11-16T16:00:12.759Z     +1ms [debug] Created AWS client CloudFormationClient
+2023-11-16T16:00:13.432Z   +673ms [debug] Loaded bootstrap status
+2023-11-16T16:00:13.432Z     +0ms [debug] Bootstrap context initialized {"version":"7.2","bucket":"sstbootstrap-useast124d14e4b-bvmhqix2xexb"}
+2023-11-16T16:00:13.432Z     +0ms [debug] Created AWS client S3Client
+2023-11-16T16:00:13.459Z    +27ms [debug] Fetching all metadata
+2023-11-16T16:00:13.946Z   +487ms [debug] IoT connected
+2023-11-16T16:00:14.056Z   +110ms [debug] Fetched metadata from 0 stacks
+2023-11-16T16:00:14.058Z     +2ms [debug] Created AWS client SSMClient
